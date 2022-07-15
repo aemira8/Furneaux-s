@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #47353a;
+}
+
+header {
+  overflow: hidden;
+
+  padding: 10px 15px;
+}
+
+header h1 {
+  float: left;
+}
+
+header nav {
+  float: right;
+
+  margin-top: 3px;
+}
+
+header nav a {
+  color: #47353a;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  margin-left: 15px;
+}
+
+section.hero {
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+  background-position: right center;
+
+  padding-top: 230px;
+  padding-bottom: 200px;
+}
+
+section.hero div {
+  max-width: 540px;
+  text-align: center;
+
+  margin: auto;
+  padding: 0 20px;
+}
+
+section.hero div h2 {
+  font-family: "David Libre", serif;
+  font-size: 64px;
+  line-height: 1;
+
+  margin-bottom: 15px;
+}
+
+section.hero div p {
+  max-width: 400px;
+
+  margin: auto;
+}
+
+section.flowers {
+  overflow: hidden;
+}
+
+section.flowers img {
+  float: left;
+  width: 33.333%;
+}
